@@ -1,0 +1,71 @@
+/*head css*/
+#subjectdiv{
+	margin: auto;
+}
+.subjecttop{
+	float: left;
+	width: 150px;
+	height: 86px;
+}
+.subtoptwo{
+	float: left;
+	height: 86px;
+}
+.widthdiv{
+	float: left;
+	width: 65px;
+	height: 20px;
+}
+.titlebar table{
+	font-family: "微软雅黑";
+	float: left;
+	height: 86px;
+}
+.titlebar table tr td{
+	width: 138px;
+	text-align: center;
+}
+.titlebar table tr td a{
+	text-decoration: none;
+	color:#757575;
+	font-size: 22px;
+}
+.titlehome{
+	color: black;
+}
+.titlebar table tr td a:hover{
+	font-size: 26px;
+	font-weight: bold;
+	color: #0388d4;
+	transition: 0.3s;
+}
+/*body css*/
+#bodydiv{
+	clear: both;
+}
+#bodydiv{	
+	height: 780px;
+	background:url(../img/photobackgroud.jpg) no-repeat;
+}
+#taildiv{
+	height: 90px;
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
