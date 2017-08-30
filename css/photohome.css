@@ -1,11 +1,16 @@
 /*head css*/
 #subjectdiv{
+	float: left;
+	width: 1920px;
+	height: 86px;
 	margin: auto;
+	background:url(../img/backgroundtop.png) no-repeat;
+	z-index: 1;
 }
 .subjecttop{
 	float: left;
 	width: 150px;
-	height: 86px;
+	height: 82px;
 }
 .subtoptwo{
 	float: left;
@@ -17,7 +22,7 @@
 	height: 20px;
 }
 .titlebar table{
-	font-family: "微软雅黑";
+	font-family: "方正舒体";
 	float: left;
 	height: 86px;
 }
@@ -31,27 +36,51 @@
 	font-size: 22px;
 }
 .titlehome{
-	color: black;
+	color: #353232;
 }
 .titlebar table tr td a:hover{
-	font-size: 26px;
+	font-size: 32px;
 	font-weight: bold;
 	color: #0388d4;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 /*body css*/
-#bodydiv{
-	clear: both;
-}
+/*clear: both; 清楚float*/
 #bodydiv{	
-	height: 780px;
-	background:url(../img/photobackgroud.jpg) no-repeat;
+	height: 1300px;
+	background:url(../img/background.jpg) no-repeat;
+	z-index: -1;
 }
 #taildiv{
 	height: 90px;
 	border: 1px solid red;
 }
-
+.textdiv{
+	overflow: hidden;
+	width: 1200px;
+	margin: auto;
+	padding-top: 230px;
+}
+.bodytext{
+	font-family: "方正舒体";
+	clear: both;
+	font-weight:bolder;
+	margin: auto;
+	color: white;
+	font-size: 78px;
+}
+.textdivtwo{
+	font-family: "微软雅黑";
+	padding-left: 860px;
+	clear: both;
+	color: white;
+	font-size: 19px;
+}
+.buttondiv{
+	width:160px;
+	margin: auto;
+	margin-top: 65px;
+}
 
 
 
