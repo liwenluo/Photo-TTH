@@ -1,7 +1,7 @@
 /*head css*/
 #subjectdiv{
 	float: left;
-	width: 1920px;
+	width: 1910px;
 	height: 86px;
 	margin: auto;
 	background:url(../img/backgroundtop.png) no-repeat;
@@ -47,13 +47,14 @@
 /*body css*/
 /*clear: both; 清楚float*/
 #bodydiv{	
-	height: 1300px;
+	height: 955px;
 	background:url(../img/background.jpg) no-repeat;
 	z-index: -1;
 }
 #taildiv{
-	height: 90px;
-	border: 1px solid red;
+	background:url(../img/backgroundtop.png) no-repeat;
+	height: 82px;
+	margin-top: -82px;
 }
 .textdiv{
 	overflow: hidden;
@@ -70,6 +71,7 @@
 	font-size: 78px;
 }
 .textdivtwo{
+	line-height: 45px;
 	font-family: "微软雅黑";
 	padding-left: 860px;
 	clear: both;
@@ -81,11 +83,20 @@
 	margin: auto;
 	margin-top: 65px;
 }
-
-
-
-
-
+.tailtable{
+	width:600px;
+	margin: auto;
+	align-content: center;
+}
+.tailimage{
+	width: 1250px;
+	margin: auto;
+}
+.tailimage tr td{
+	color: #5e6163;
+	font-size: 16px;
+}
+img, object {max-width: 100%;} 
 
 
 
